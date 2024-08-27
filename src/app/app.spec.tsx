@@ -11,5 +11,6 @@ describe('App', () => {
   it('should have a greeting as the title', () => {
     const { getByText } = render(<App />);
     expect(getByText(/Welcome trytasksummary/gi)).toBeTruthy();
+    expect(1).toEqual(2);
   });
 });
